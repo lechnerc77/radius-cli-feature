@@ -1,0 +1,23 @@
+{
+    "name": "Radius CLI - Tutorial Setup",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
+            "minikube": "none"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/devcontainers/features/azure-cli:1": {},
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/lechnerc77/radius-cli-feature/radcli:latest": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.vscode-yaml",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "postCreateCommand": "cp .devcontainer/devcontainer-radius-tutorial/assets/first-time-notice.txt ~/first-time-notice.txt"
+}
