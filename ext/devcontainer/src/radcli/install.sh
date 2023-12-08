@@ -20,7 +20,7 @@ echo "(*) Ensuring dependencies are installed"
 
 check_packages wget
 
-echo "(*) Installing Radius CLI"
+echo "(*) Installing Radius CLI version ${CLI_VERSION}"
 
 # If version is not specified, install latest otherwise install edge
 if [ "${CLI_VERSION}" = "latest" ]; then
