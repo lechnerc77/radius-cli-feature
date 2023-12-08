@@ -12,6 +12,16 @@ Installs the [Radius CLI](https://github.com/radius-project/radius) along with n
 }
 ```
 
+## Example Usage - Install explicit version
+
+```json
+"features": {
+    "ghcr.io/devcontainers/lechenrc77/radiuscli:latest": {
+        "version": "0.27.1"
+    }
+}
+```
+
 ## Example Usage - Install edge release
 
 ```json

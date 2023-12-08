@@ -7,12 +7,12 @@
     "options": {
         "version": {
             "type": "string",
-            "enum": [
+            "proposals": [
                 "latest",
                 "edge"
             ],
             "default": "latest",
-            "description": "Select or enter an Radius CLI version. Available versions are 'latest' and 'edge' "
+            "description": "Select or enter an Radius CLI version. Use 'latest' for the latest stable release or 'edge' for the latest pre-release version."
         }
     }
 }
