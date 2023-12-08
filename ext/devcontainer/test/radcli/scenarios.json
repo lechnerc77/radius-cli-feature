@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "radcli": {
-                "version": "edges"
+                "version": "edge"
             }
         }
     },
@@ -11,7 +11,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "radcli": {
-                "version": "0.28.0"
+                "version": "0.27.0"
             }
         }
     }
