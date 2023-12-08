@@ -6,13 +6,5 @@
                 "version": "edge"
             }
         }
-    },
-    "version-specified": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-        "features": {
-            "radcli": {
-                "version": "0.27.1"
-            }
-        }
     }
 }
