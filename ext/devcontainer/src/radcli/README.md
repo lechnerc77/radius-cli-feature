@@ -36,4 +36,4 @@ Installs the [Radius CLI](https://github.com/radius-project/radius) along with n
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter an Radius CLI version. Available versions are "latest" and "edge" | string | latest |
+| version | Select or enter a Radius CLI version. Available versions are "latest" and "edge" | string | latest |
